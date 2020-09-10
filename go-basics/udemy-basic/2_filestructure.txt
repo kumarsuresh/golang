@@ -1,0 +1,25 @@
+In Go workspace contains three subdirectories at its root:
+
+src – This directory contains source files organized as packages. You will write your Go applications inside this directory.
+pkg – This directory contains Go package objects.
+bin – This directory contains executable programs.
+
+// a typical go project has a main directory called go with three subdirectries
+/go
+	// your source code should be in src directory
+	/src
+		your-source-code-here
+	// all compiled binaries are gone in bin folders
+	/bin
+		compiler binary-1
+		compiler binary -2
+	// all intermediate package are gone here..
+	// which are needed to build a final package.
+	/pkg
+		objects to be linked
+		external dependencies goes here
+
+
+// Go compilar has a function called linker
+// every times you compiler your source code its look between then package folder 
+and looking for pre-requisits and combine them and create a self contained binary file

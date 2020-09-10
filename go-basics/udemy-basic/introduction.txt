@@ -1,0 +1,68 @@
+What is Go ?
+
+Go is a programming language originally created in 2007 by Google.
+Initially, it was intended to be an internal coding standard for the company’s own infrastructure
+but after In 2009 it was released.
+
+
+Go lang Creators:
+
+Go’s creators are high-profile programmers
+One of them, Ken Thompson, was the inventor of B, the language that came before C language
+another one is Rob Pike,  was involved with the Unix team for a while and created the programming language Limbo.
+
+Thompson and Pike also created UTF-8, which is the default encoding in XML and HTML. 
+Put those guys together in a team, give them the manpower and knowledge of Google and they invented a new language which is called Go.
+
+
+Go was born mainly to improve the concurrency that other existing languages like Python, Java or C/C++ were not able to handle correctly.
+
+what is concurrency?
+Concurrency mean a software can execute more than one task at the same time.
+
+
+Although its official name is simply Go, it’s also called Golang.
+
+Go is a lightweight, systems programming language designed with concurrency, scalability, and the web in mind
+
+
+Reasons to learn Go (Golang)
+1. It’s growing faster than any other language
+    - Tiobe Index, a search-based ranking that gauges the popularity of top and emerging languages among developers.
+    and according to Tiobe Go is the programming language of the year
+
+    - 18% of freelancers voted Go as one of the programming languages that will become important in the near future 
+    and so Go it became the 7th most voted language
+
+    you can also find latest Tiobe index here:
+    https://www.tiobe.com/tiobe-index/
+
+2. Multicore usage
+    - A CPU that offers multiple cores may perform significantly better than a single-core CPU of the same speed. 
+      Multiple cores allow PCs to run multiple processes at the same time. And GO lang gives us power to run multiple threads on multiple core.
+
+3. Concurrency
+    - Concurrency is one of the best features of Go
+    - Concurrency mean a software can execute more than one task at the same time.
+    - // Go was built to support that with its Goroutines – thousands can be executed at a time. Additionally, channels allow them to synchronize with each other. 
+
+    Go supports two concurrency models:
+        1. Multi-threaded with shared memory: As its name indicates, the processes share memory space and variables.
+        2. Communicating Sequential Processes (CSP): In this case, the processes have their own variables and communicate through messages (channels).
+
+4. The code is easy to maintain
+
+5. Trusted by larger companies
+    - Firms like IBM, GitHub, Netflix, the Economist and the New York Times all use it. 
+    And don’t forget Google still has it as part of theirs, too!
+    Facebook and Amazon have gone with Go.
+    Kubernate and Docker are being written in Go.
+
+Go is popular because of its:
+    Simplicity
+    Performance
+    Tools/Libraries/ and a big Community
+
+
+you can find more reasons to learn Go on golang.org faq page:
+https://golang.org/doc/faq

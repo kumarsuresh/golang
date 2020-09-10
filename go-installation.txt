@@ -1,0 +1,10 @@
+Step 1 : install go from https://golang.org/doc/install
+
+- go version
+
+fmt.Printf()
+fmt.Println()
+
+sum of number
+if  / for / switch / 
+unused variable
