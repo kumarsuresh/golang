@@ -1,4 +1,4 @@
-package structs
+package views
 
 type Resonse struct {
 	Code int

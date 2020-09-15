@@ -4,15 +4,19 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"structs"
 )
+
+type Response struct {
+	Code int
+	Body interface{}
+}
 
 func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == http.MethodGet {
 			fmt.Println("Request get method received")
-			data := structs.Response{
+			data := Response{
 				Code: http.StatusOK,
 				Body: "pong",
 			}
